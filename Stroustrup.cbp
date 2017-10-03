@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Stroustrup" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Stroustrup" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="fltk_images" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`fltk-config --cxxflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`fltk-config --ldstaticflags`" />
+		</Linker>
+		<Unit filename="GUI.cpp" />
+		<Unit filename="Graph.cpp" />
+		<Unit filename="Graph.h" />
+		<Unit filename="Gui.h" />
+		<Unit filename="Matrix.h" />
+		<Unit filename="Matrix11.h" />
+		<Unit filename="MatrixIO.h" />
+		<Unit filename="MatrixIO11.h" />
+		<Unit filename="MyClasses.cpp" />
+		<Unit filename="MyClasses.h" />
+		<Unit filename="Point.h" />
+		<Unit filename="Simple_window.cpp" />
+		<Unit filename="Simple_window.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="fltk.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main2.cpp" />
+		<Unit filename="std_lib_facilities.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

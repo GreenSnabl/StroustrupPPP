@@ -1,0 +1,110 @@
+# depslib dependency file v1.0
+1505082983 source:/home/dennis/dev/Stroustrup/3drect.cpp
+	"Simple_window.h"
+	"Graph.h"
+
+1507047540 /home/dennis/dev/Stroustrup/Simple_window.h
+	"GUI.h"
+
+1506962429 /home/dennis/dev/Stroustrup/Graph.h
+	"Point.h"
+	<vector>
+	"fltk.h"
+	"std_lib_facilities.h"
+
+1505044230 /home/dennis/dev/Stroustrup/Point.h
+
+1406850335 /home/dennis/dev/Stroustrup/fltk.h
+	"FL/Fl.H"
+	"FL/Fl_Window.H"
+	"FL/Fl_Button.H"
+	"FL/Fl_Input.H"
+	"FL/Fl_Output.H"
+	<cstdlib>
+	"FL/fl_draw.H"
+	"FL/Enumerations.H"
+	"Fl/Fl_JPEG_Image.H"
+	"Fl/Fl_GIF_Image.H"
+
+1505062207 /home/dennis/dev/Stroustrup/std_lib_facilities.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
+1505063249 source:/home/dennis/dev/Stroustrup/Chapter.cpp
+	"Graph.h"
+
+1406850335 /home/dennis/dev/Stroustrup/Gui.h
+	"Point.h"
+	"fltk.h"
+	"Window.h"
+	"Graph.h"
+
+1406850335 /home/dennis/dev/Stroustrup/Window.h
+	"fltk.h"
+	"std_lib_facilities.h"
+	"Point.h"
+
+1505820002 source:/home/dennis/dev/Stroustrup/Color_chart.cpp
+	"Simple_window.h"
+	"Graph.h"
+
+1506962475 source:/home/dennis/dev/Stroustrup/Graph.cpp
+	"Graph.h"
+	<map>
+
+1507047525 source:/home/dennis/dev/Stroustrup/GUI.cpp
+	"GUI.h"
+	"std_lib_facilities.h"
+	<sstream>
+
+1505044625 source:/home/dennis/dev/Stroustrup/Simple_window.cpp
+	"Simple_window.h"
+
+1505070820 source:/home/dennis/dev/Stroustrup/TicTacToe.cpp
+	"Graph.h"
+
+1507047549 source:/home/dennis/dev/Stroustrup/Window.cpp
+	"Window.h"
+	"Graph.h"
+	"GUI.h"
+
+1506962938 source:/home/dennis/dev/Stroustrup/MyClasses.cpp
+	"MyClasses.h"
+
+1507047532 /home/dennis/dev/Stroustrup/MyClasses.h
+	<sstream>
+	"Graph.h"
+	"GUI.h"
+
+1506947747 source:/home/dennis/dev/Stroustrup/main.cpp
+	"Simple_window.h"
+	"Graph.h"
+	"MyClasses.h"
+	"GUI.h"
+	"std_lib_facilities.h"
+
+1406850335 /home/dennis/dev/Stroustrup/GUI.h
+	"Window.h"
+	"Graph.h"
+
+1506947747 source:/home/dennis/dev/Stroustrup/main2.cpp
+	"Simple_window.h"
+	"Graph.h"
+	"MyClasses.h"
+	"GUI.h"
+	"std_lib_facilities.h"
+
