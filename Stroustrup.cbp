@@ -27,9 +27,9 @@
 			<Add option="`fltk-config --ldstaticflags`" />
 		</Linker>
 		<Unit filename="GUI.cpp" />
+		<Unit filename="GUI.h" />
 		<Unit filename="Graph.cpp" />
 		<Unit filename="Graph.h" />
-		<Unit filename="Gui.h" />
 		<Unit filename="Matrix.h" />
 		<Unit filename="Matrix11.h" />
 		<Unit filename="MatrixIO.h" />
@@ -43,7 +43,6 @@
 		<Unit filename="Window.h" />
 		<Unit filename="fltk.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="main2.cpp" />
 		<Unit filename="std_lib_facilities.h" />
 		<Extensions>
 			<code_completion />

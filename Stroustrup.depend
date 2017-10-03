@@ -3,8 +3,9 @@
 	"Simple_window.h"
 	"Graph.h"
 
-1507047540 /home/dennis/dev/Stroustrup/Simple_window.h
+1507063315 /home/dennis/dev/Stroustrup/Simple_window.h
 	"GUI.h"
+	"Graph.h"
 
 1506962429 /home/dennis/dev/Stroustrup/Graph.h
 	"Point.h"
@@ -53,7 +54,7 @@
 	"Window.h"
 	"Graph.h"
 
-1406850335 /home/dennis/dev/Stroustrup/Window.h
+1507049167 /home/dennis/dev/Stroustrup/Window.h
 	"fltk.h"
 	"std_lib_facilities.h"
 	"Point.h"
@@ -71,7 +72,7 @@
 	"std_lib_facilities.h"
 	<sstream>
 
-1505044625 source:/home/dennis/dev/Stroustrup/Simple_window.cpp
+1507063315 source:/home/dennis/dev/Stroustrup/Simple_window.cpp
 	"Simple_window.h"
 
 1505070820 source:/home/dennis/dev/Stroustrup/TicTacToe.cpp
@@ -90,11 +91,12 @@
 	"Graph.h"
 	"GUI.h"
 
-1506947747 source:/home/dennis/dev/Stroustrup/main.cpp
+1507063391 source:/home/dennis/dev/Stroustrup/main.cpp
 	"Simple_window.h"
 	"Graph.h"
 	"MyClasses.h"
 	"GUI.h"
+	"MyWindow.h"
 	"std_lib_facilities.h"
 
 1406850335 /home/dennis/dev/Stroustrup/GUI.h
@@ -107,4 +109,7 @@
 	"MyClasses.h"
 	"GUI.h"
 	"std_lib_facilities.h"
+
+1507061693 /home/dennis/dev/Stroustrup/MyWindow.h
+	"Simple_window.h"
 
