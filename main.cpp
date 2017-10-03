@@ -2,18 +2,14 @@
 #include "Graph.h"
 #include "MyClasses.h"
 #include "GUI.h"
-#include "MyWindow.h"
 #include "std_lib_facilities.h"
 
 using namespace Graph_lib;
 
 int main() {
-    Button_window my{Point{20, 20}, 1000, 800, "cool"};
+    Button_window my{Point{20, 20}, 600, 400, "cool"};
 
     my.wait_for_button();
-
-
-
 
 }
 

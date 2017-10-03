@@ -113,3 +113,86 @@
 1507061693 /home/dennis/dev/Stroustrup/MyWindow.h
 	"Simple_window.h"
 
+1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/Graph.cpp
+	"Graph.h"
+	<map>
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/Graph.h
+	"Point.h"
+	<vector>
+	"fltk.h"
+	"std_lib_facilities.h"
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/Point.h
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/fltk.h
+	"FL/Fl.H"
+	"FL/Fl_Window.H"
+	"FL/Fl_Button.H"
+	"FL/Fl_Input.H"
+	"FL/Fl_Output.H"
+	<cstdlib>
+	"FL/fl_draw.H"
+	"FL/Enumerations.H"
+	"Fl/Fl_JPEG_Image.H"
+	"Fl/Fl_GIF_Image.H"
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/std_lib_facilities.h
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<cmath>
+	<cstdlib>
+	<string>
+	<list>
+	<forward_list>
+	<vector>
+	<unordered_map>
+	<algorithm>
+	<array>
+	<regex>
+	<random>
+	<stdexcept>
+
+1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/GUI.cpp
+	"GUI.h"
+	"std_lib_facilities.h"
+	<sstream>
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/GUI.h
+	"Window.h"
+	"Graph.h"
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/Window.h
+	"fltk.h"
+	"std_lib_facilities.h"
+	"Point.h"
+
+1507065506 source:/home/dennis/dev/StrousGui/StroustrupPPP/main.cpp
+	"Simple_window.h"
+	"Graph.h"
+	"MyClasses.h"
+	"GUI.h"
+	"std_lib_facilities.h"
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/Simple_window.h
+	"GUI.h"
+	"Graph.h"
+
+1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/MyClasses.h
+	<sstream>
+	"Graph.h"
+	"GUI.h"
+
+1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/MyClasses.cpp
+	"MyClasses.h"
+
+1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/Simple_window.cpp
+	"Simple_window.h"
+
+1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/Window.cpp
+	"Window.h"
+	"Graph.h"
+	"GUI.h"
+
