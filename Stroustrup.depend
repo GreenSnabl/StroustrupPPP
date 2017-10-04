@@ -169,16 +169,17 @@
 	"std_lib_facilities.h"
 	"Point.h"
 
-1507065506 source:/home/dennis/dev/StrousGui/StroustrupPPP/main.cpp
+1507065654 source:/home/dennis/dev/StrousGui/StroustrupPPP/main.cpp
 	"Simple_window.h"
 	"Graph.h"
 	"MyClasses.h"
 	"GUI.h"
 	"std_lib_facilities.h"
 
-1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/Simple_window.h
+1507101422 /home/dennis/dev/StrousGui/StroustrupPPP/Simple_window.h
 	"GUI.h"
 	"Graph.h"
+	"MyClasses.h"
 
 1507065372 /home/dennis/dev/StrousGui/StroustrupPPP/MyClasses.h
 	<sstream>

@@ -3,6 +3,7 @@
 
 #include "GUI.h"    // for Simple_window only (doesn't really belong in Window.h)
 #include "Graph.h"
+#include "MyClasses.h"
 
 using namespace Graph_lib;
 
@@ -84,6 +85,29 @@ private:
 
 //------------------------------------------------------------------------------
 
+struct Item_window : My_window {
+    Item_window(Point xy, int w, int h, const string& title);
+
+private:
+
+    Menu item_menu;
+    In_box in_x;
+    In_box in_y;
+    Vector_ref<Shape> items;
+
+    void draw_circle();
+    void draw_triangle();
+    void draw_square();
+    void draw_hexagon();
+
+    static void cb_drawc(Address, Address pw) {reference_to<Item_window>(pw).draw_circle();}
+    static void cb_drawt(Address, Address pw) {reference_to<Item_window>(pw).draw_triangle();}
+    static void cb_draws(Address, Address pw) {reference_to<Item_window>(pw).draw_square();}
+    static void cb_drawh(Address, Address pw) {reference_to<Item_window>(pw).draw_hexagon();}
+
+};
+
+//-----------------------------------------------------------------------------
 
 
 #endif

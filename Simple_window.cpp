@@ -5,6 +5,7 @@
 //
 #include "Simple_window.h"
 
+using namespace Graph_lib;
 //------------------------------------------------------------------------------
 
 Simple_window::Simple_window(Point xy, int w, int h, const string& title) :
@@ -62,6 +63,55 @@ My_window::My_window(Point xy, int w, int h, const string& title)
 }
 
 //------------------------------------------------------------------------------
+
+Item_window::Item_window(Point xy, int w, int h, const string& title)
+    :My_window(xy, w, h, title),
+    item_menu(Point{x_max()-70, 60},70, 20, Menu::vertical, "Item menu"),
+    in_x(Point(x_max() - 150, 0), 70, 20, "x"),
+    in_y(Point(x_max() - 225, 0), 70, 20, "y")
+
+{
+    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_drawc));
+    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_drawt));
+    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_draws));
+    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_drawh));
+    attach(item_menu);
+    attach(in_x);
+    attach(in_y);
+}
+
+void Item_window::draw_circle()
+{
+    int x = in_x.get_int();
+    int y = in_y.get_int();
+    items.push_back(new Circle(Point{x,y}, 50));
+    attach(items[items.size()-1]);
+}
+
+void Item_window::draw_triangle()
+{
+    int x = in_x.get_int();
+    int y = in_y.get_int();
+    items.push_back(new Regular_polygon(Point{x,y}, 3, 50));
+    attach(items[items.size()-1]);
+}
+
+void Item_window::draw_square()
+{
+    int x = in_x.get_int();
+    int y = in_y.get_int();
+    items.push_back(new Regular_polygon(Point{x,y}, 4, 50));
+    attach(items[items.size()-1]);
+}
+
+void Item_window::draw_hexagon()
+{
+    int x = in_x.get_int();
+    int y = in_y.get_int();
+    items.push_back(new Regular_polygon(Point{x,y}, 6, 50));
+    attach(items[items.size()-1]);
+}
+
 
 Button_window::Button_window(Point xy, int w, int h, const string& title)
     :My_window(xy,w,h,title),
