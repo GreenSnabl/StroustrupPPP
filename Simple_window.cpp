@@ -67,14 +67,14 @@ My_window::My_window(Point xy, int w, int h, const string& title)
 Item_window::Item_window(Point xy, int w, int h, const string& title)
     :My_window(xy, w, h, title),
     item_menu(Point{x_max()-70, 60},70, 20, Menu::vertical, "Item menu"),
-    in_x(Point(x_max() - 150, 0), 70, 20, "x"),
-    in_y(Point(x_max() - 225, 0), 70, 20, "y")
+    in_y(Point(x_max() - 150, 0), 70, 20, "y"),
+    in_x(Point(x_max() - 250, 0), 70, 20, "x")
 
 {
     item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_drawc));
-    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_drawt));
-    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_draws));
-    item_menu.attach(new Button(Point{0,0},0,0,"Circle",cb_drawh));
+    item_menu.attach(new Button(Point{0,0},0,0,"Triangle",cb_drawt));
+    item_menu.attach(new Button(Point{0,0},0,0,"Square",cb_draws));
+    item_menu.attach(new Button(Point{0,0},0,0,"Hexagon",cb_drawh));
     attach(item_menu);
     attach(in_x);
     attach(in_y);
@@ -86,6 +86,7 @@ void Item_window::draw_circle()
     int y = in_y.get_int();
     items.push_back(new Circle(Point{x,y}, 50));
     attach(items[items.size()-1]);
+    Fl::redraw();
 }
 
 void Item_window::draw_triangle()
@@ -94,6 +95,7 @@ void Item_window::draw_triangle()
     int y = in_y.get_int();
     items.push_back(new Regular_polygon(Point{x,y}, 3, 50));
     attach(items[items.size()-1]);
+    Fl::redraw();
 }
 
 void Item_window::draw_square()
@@ -102,6 +104,7 @@ void Item_window::draw_square()
     int y = in_y.get_int();
     items.push_back(new Regular_polygon(Point{x,y}, 4, 50));
     attach(items[items.size()-1]);
+    Fl::redraw();
 }
 
 void Item_window::draw_hexagon()
@@ -110,6 +113,7 @@ void Item_window::draw_hexagon()
     int y = in_y.get_int();
     items.push_back(new Regular_polygon(Point{x,y}, 6, 50));
     attach(items[items.size()-1]);
+    Fl::redraw();
 }
 
 

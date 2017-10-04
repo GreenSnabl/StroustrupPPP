@@ -7,7 +7,7 @@
 using namespace Graph_lib;
 
 int main() {
-    Button_window my{Point{20, 20}, 600, 400, "cool"};
+    Item_window my{Point{20, 20}, 600, 400, "item window"};
 
     my.wait_for_button();
 

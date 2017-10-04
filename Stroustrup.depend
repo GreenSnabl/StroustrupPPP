@@ -169,7 +169,7 @@
 	"std_lib_facilities.h"
 	"Point.h"
 
-1507065654 source:/home/dennis/dev/StrousGui/StroustrupPPP/main.cpp
+1507129812 source:/home/dennis/dev/StrousGui/StroustrupPPP/main.cpp
 	"Simple_window.h"
 	"Graph.h"
 	"MyClasses.h"
@@ -189,7 +189,7 @@
 1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/MyClasses.cpp
 	"MyClasses.h"
 
-1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/Simple_window.cpp
+1507129911 source:/home/dennis/dev/StrousGui/StroustrupPPP/Simple_window.cpp
 	"Simple_window.h"
 
 1507065372 source:/home/dennis/dev/StrousGui/StroustrupPPP/Window.cpp
